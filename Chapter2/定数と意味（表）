@@ -1,0 +1,12 @@
+# Chapter2　Section12 定数を使うには
+
+PHP_VERSION   : PHPのバージョン
+PHP_OS 		  : PHPの稼働中のOS
+__LINE__ 	  : 処理中の行番号
+__FILE__	  : 処理中のPHPファイルのフルパスとファイル名
+__DIR__		  : 処理中のファイルがあるディレクトリ名
+__FUNCTION__  : 関数名
+__CLASS__	  : クラス名
+__TRAIT__	  : トレイト名
+__METHOD__	  : クラスのメソッド名
+__NAMESPACE__ : 「名前空間」の名称
