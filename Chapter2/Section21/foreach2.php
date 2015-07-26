@@ -1,5 +1,5 @@
 <?php
-// Chapter2 PHPの基礎　Section20 foreach文
+// Chapter2 PHPの基礎　Section21 foreach文
 // foreach文　連想配列の操作
 
 $member = array("name" => "○田○夫",
