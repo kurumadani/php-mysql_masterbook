@@ -1,0 +1,10 @@
+変数			: 意味
+$GLOBALS	: グローバル変数
+$_SERVER	: サーバー変数
+$_ENV		: 環境変数
+$_COOKIE	: HTTP　クッキー
+$_GET		: HTTP GET関数
+$_POST		: HTTP POST関数
+$_FILES		: HTTP ファイルアップロード変数
+$_REQUEST	: リクエスト変数
+$_SESSION	: セッション変数　※詳細はPHPのマニュアル参照
