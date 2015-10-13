@@ -1,7 +1,7 @@
 <?php
-// Chapter3 PHPの基礎　Section28 文字列の操作
+// Chapter3 PHPの組み込み関数 Section28 文字列の操作
 // 入力データの処理　スペースを除去する
-// 
+//
 // $変数 = trim(文字列);
 
 

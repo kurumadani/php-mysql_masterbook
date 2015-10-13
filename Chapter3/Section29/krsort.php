@@ -1,8 +1,8 @@
 <?php
-// Chapter3 PHPの基礎　Section29 配列を操作するには
-// 連想配列内のデータを並び替え　キーを昇順でソートする
+// Chapter3 PHPの組み込み関数 Section29 配列を操作するには
+// 連想配列内のデータを並び替え　キーを降順でソートする
 //
-// ksort( $配列 , フラグ(省略化) );
+// krsort( $配列 , フラグ(省略化) );
 //
 // フラグ          : 意味
 // SORT_REGULAR     : 通常通りにデータを比較
@@ -19,7 +19,7 @@ echo "<pre>";
 var_dump($sales);
 echo "</pre>";
 
-ksort( $sales );
+krsort( $sales );
 
 echo "<pre>";
 var_dump($sales);

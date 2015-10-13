@@ -1,8 +1,9 @@
 <?php
-// Chapter3 PHPの基礎　Section29 配列を操作するには
-// 配列内のデータの並び替え　昇順にソートする
+// Chapter3 PHPの組み込み関数 Section29 配列を操作するには
+// 連想配列内のデータを並び替え　昇順にソートする
 //
-// sort( $配列 , フラグ(省略化) );
+// asort( $配列 , フラグ(省略化) );
+//
 // フラグ          : 意味
 // SORT_REGULAR     : 通常通りにデータを比較
 // SORT_NUMERIC     : 数値としてデータを比較
@@ -13,13 +14,13 @@
 
 
 
-$numbers = array( 18, 7, 20, 5 );
+$sales = array( "TV2" => "1000", "TV1" => "500", "RADIO1" => "800" );
 echo "<pre>";
-var_dump($numbers);
+var_dump($sales);
 echo "</pre>";
 
-sort( $numbers );
+asort( $sales );
 
 echo "<pre>";
-var_dump($numbers);
+var_dump($sales);
 echo "</pre>";

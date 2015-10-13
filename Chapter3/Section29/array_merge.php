@@ -1,5 +1,5 @@
 <?php
-// Chapter3 PHPの基礎 Section29 配列の結合と切り出し
+// Chapter3 PHPの組み込み関数 Section29 配列の結合と切り出し
 // 配列をマージ
 // $配列 = array_merge( $元の配列, $追加配列 );
 

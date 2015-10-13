@@ -1,5 +1,5 @@
 <?php
-// Chapter3 PHPの基礎 Section29 配列先頭データの追加削除
+// Chapter3 PHPの組み込み関数 Section29 配列先頭データの追加削除
 // 先頭にデータを追加する
 // array_unshift( $配列 , "追加文字列" );
 // array_unshift( $配列 , $追加変数 );

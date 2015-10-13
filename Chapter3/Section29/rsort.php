@@ -1,5 +1,5 @@
 <?php
-// Chapter3 PHPの基礎　Section29 配列を操作するには
+// Chapter3 PHPの組み込み関数 Section29 配列を操作するには
 // 配列内のデータの並び替え　降順にソートする
 //
 // rsort( $配列 , フラグ(省略化) );
